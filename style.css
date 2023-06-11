@@ -6,6 +6,13 @@ body {
   margin: 10% 20%;
 }
 
+aside{
+  width: 20%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+}
+
 .exp-header {
   color: #223BC9;
   text-transform: uppercase;
@@ -16,9 +23,3 @@ body {
   text-transform: uppercase;
 }
 
-.asidebar{
-  width: 20%;
-  padding-left: 15px;
-  margin-left: 15px;
-  float: right;
-}
