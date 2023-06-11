@@ -1,6 +1,6 @@
 body {
-  background-color: #444444;
-  color: #dddddd;
+  background-image: url("https://img.freepik.com/free-photo/paper-texture_1194-5999.jpg");
+  color: #444444;
   font-family: Arial, Helvetica, sans-serif;
   margin: 10% 20%;
 }
@@ -10,5 +10,13 @@ body {
   text-transform: uppercase;
   border-top: 1px solid #dddddd;
   border-bottom: 1px solid #dddddd;
+  background-color: rgba(0,0,0, 0)
+}
+.aside-header {
+  width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic, bold;
   background-color: rgba(0,0,0, 0.1)
 }
