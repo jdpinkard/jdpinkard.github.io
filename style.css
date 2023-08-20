@@ -1,19 +1,91 @@
 body {
-  background-image: url("https://img.freepik.com/free-photo/paper-texture_1194-5999.jpg");
-  background-size: cover;
-  color: #444444;
-  font-family: Times New Roman, Arial, Helvetica, sans-serif;
-  margin: 10% 20%;
+    font-family: 'Calistoga', cursive;
+    background-image: url("https://as2.ftcdn.net/v2/jpg/02/38/75/59/1000_F_238755961_GqRn6IAkWTT7yZuuUkvowONleNhVzQl5.jpg"); 
+    margin: auto;
+    text-align: center;
+    background-size: 100% auto;
 }
 
-aside{
-  width: 20%;
-  padding-left: 15px;
-  margin-left: 15px;
-  float: right;
+.box {
+ margin-left: auto;
+ margin-right: auto;
+ object-position: center;
+ border-style: dotted;
+ border-width: 10px;
+ border-color: black;   
 }
 
-.blue-header {
-  color: #223BC9;
-  text-transform: uppercase;
+ul{
+    list-style: none;
 }
+
+td {
+    height: 150px;
+    width: 150px;
+    font-size: 100px;
+}
+
+.hover{
+    cursor: pointer;
+}
+footer{
+    padding-top: 20px;
+}
+
+/* Popup container - can be anything you want */
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* The actual popup */
+  .popup .popuptext {
+    visibility: hidden;
+    width: 360px;
+    height: 200px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -179px;
+  }
+  
+  /* Popup arrow */
+  .popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  /* Toggle this class - hide and show the popup */
+  .popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+  }
+  
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
