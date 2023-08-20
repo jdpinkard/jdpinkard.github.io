@@ -39,6 +39,9 @@ const treasure = (location) => {
       bombFound = true
     } else {
       document.getElementById(location).innerHTML = "&#x1f332"
+      if (clickCounter === 0) {
+        clickCounterPopUp()
+      }
     }
   }
   document.getElementById("clicks").textContent = "Clicks left: " + clickCounter
