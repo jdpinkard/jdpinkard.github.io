@@ -41,6 +41,3 @@ const treasure = (location) => {
   }
   document.getElementById("clicks").textContent = "Clicks left: " + clickCounter
 }
-  }
-  document.getElementById("clicks").textContent = "Clicks left: " + clickCounter
-}
